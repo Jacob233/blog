@@ -7,4 +7,7 @@
 - <a href="https://github.com/dvajs/dva-hackernews">dva-hackernews</a></br>
 - <a href="https://github.com/sorrycc/blog/issues/9">dva-hackernews教程</a></br>
 - <a href="https://ant.design/index-cn">antDesign一条龙</a></br>
-
+- <a href="http://es6.ruanyifeng.com/#docs/generator">es6入门指南</a></br>
+- <a href="http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html">js异步处理的四种方法</a></br>
+- <a href="https://segmentfault.com/a/1190000005701562">elm入门指南</a></br>
+- <a href="http://www.ruanyifeng.com/blog/2015/05/thunk.html">Thrunk函数的理解</a></br>
