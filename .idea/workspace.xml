@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac4a254-358f-4406-a7fa-1d2c3538bc9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/leetCode/SwapNodeInPairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book-note/computer_networks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book-note/distribute_JavaApply/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blog.iml" afterPath="$PROJECT_DIR$/.idea/blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md" afterPath="$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/book-note/computer_networks/README.md" afterPath="$PROJECT_DIR$/book-note/network/computer_networks/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/book-note/distribute_JavaApply/README.md" afterPath="$PROJECT_DIR$/book-note/java/distribute_JavaApply/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md" afterPath="$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/1、基本enum特性.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumTest.java" afterPath="$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/EnumTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dvaLearnning/learn_route.md" afterPath="$PROJECT_DIR$/book-note/front-end/dvaLearnning/learn_route.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/os/linux/command" afterPath="$PROJECT_DIR$/book-note/os/linux/command" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,20 +136,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -170,7 +154,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\play-project\blog\book-note\network" />
+      <recent name="E:\play-project\blog\book-note\java" />
+      <recent name="E:\play-project\blog\book-note\front-end" />
       <recent name="E:\play-project\blog\book-note" />
+      <recent name="E:\play-project\blog\algorithm" />
     </key>
   </component>
   <component name="RunManager">
@@ -625,7 +613,7 @@
       <workItem from="1483434775704" duration="3907000" />
       <workItem from="1484918507811" duration="2238000" />
       <workItem from="1498639792757" duration="1274000" />
-      <workItem from="1499047363048" duration="72000" />
+      <workItem from="1499047363048" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="一点点">
       <created>1481954542106</created>
@@ -641,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481954652613</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改目录结构：&#10;1.将读书笔记都归纳入 book-noted&#10;">
+      <created>1499047501611</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1499047501611</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25313000" />
+    <option name="totallyTimeSpent" value="25891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -658,7 +653,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49143836" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48458904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,18 +704,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="一点点" />
-    <option name="LAST_COMMIT_MESSAGE" value="一点点" />
+    <MESSAGE value="修改目录结构：&#10;1.将读书笔记都归纳入 book-noted&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改目录结构：&#10;1.将读书笔记都归纳入 book-noted&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -729,15 +726,21 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="207">
             <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumTest.java">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#2103#2104#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,14 +748,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -761,23 +770,30 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="198">
             <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumTest.java">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#2103#2104#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -786,17 +802,19 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="198">
             <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumTest.kt" />
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -805,12 +823,13 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="286">
             <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dvaLearnning/learn_route.md">
+    <entry file="file://$PROJECT_DIR$/book-note/front-end/dvaLearnning/learn_route.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
@@ -828,11 +847,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="22">
             <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -841,6 +861,7 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="110">
             <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -882,7 +903,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dvaLearnning/learn_route.md">
+    <entry file="file://$PROJECT_DIR$/book-note/front-end/dvaLearnning/learn_route.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
@@ -902,10 +923,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumClass.java" />
     <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumTest.kt" />
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/EnumTest.java">
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#2103#2104#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -913,32 +939,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/book-note/java/distribute_JavaApply/README.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-note/distribute_JavaApply/README.md">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -947,26 +961,37 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="23">
             <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-note/computer_networks/README.md">
+    <entry file="file://$PROJECT_DIR$/book-note/network/computer_networks/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="184">
             <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coding/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-note/java/thinking in java/chapter 19-enum/1、基本enum特性.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -975,8 +1000,37 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="207">
             <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-note/os/linux/command">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
