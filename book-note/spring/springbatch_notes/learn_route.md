@@ -12,8 +12,10 @@ http://blog.csdn.net/kkdelta/article/details/45438491
 https://www.ibm.com/developerworks/cn/java/j-lo-springbatch1/
 6. springbatch的领域概念
 http://blog.csdn.net/liangyixin19800304/article/details/12455431
+7. springbatch-JobRepository
+http://www.cnblogs.com/cdutedu/p/3793484.html
+8. Chunk拦截器
+http://blog.csdn.net/u011659172/article/details/50770470
 
 ##springbatch的坑：
-
-
 
