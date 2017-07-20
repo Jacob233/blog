@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac4a254-358f-4406-a7fa-1d2c3538bc9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book-note/os/linux/linux_freq_used_command.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book-note/spring/springboot_notes/learn_route.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book-note/os/linux/command" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book-note/network/computer_networks/README.md" afterPath="$PROJECT_DIR$/book-note/network/computer_networks/learn_route.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book-note/spring/springbatch_notes/readme.md" afterPath="$PROJECT_DIR$/book-note/spring/springbatch_notes/learn_route.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book-note/spring/springboot_notes/learn_route.md" afterPath="$PROJECT_DIR$/book-note/spring/springboot_notes/learn_route.md" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="learn_route.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="learn_route.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book-note/spring/springboot_notes/learn_route.md">
           <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -42,10 +38,20 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="161">
-                <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -728,7 +734,7 @@
       <workItem from="1499047363048" duration="5182000" />
       <workItem from="1499326008967" duration="4256000" />
       <workItem from="1500012410546" duration="1226000" />
-      <workItem from="1500519445737" duration="3744000" />
+      <workItem from="1500519445737" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="一点点">
       <created>1481954542106</created>
@@ -765,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500520389644</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="想修改就修改喽">
+      <created>1500533708990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1500533708990</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39649000" />
+    <option name="totallyTimeSpent" value="39783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -836,7 +849,8 @@
     <MESSAGE value="修改目录结构：&#10;1.将读书笔记都归纳入 book-noted&#10;" />
     <MESSAGE value="修改目录结构：&#10;1.将读书笔记都归纳入 book-noted&#10;2.将读书笔记泛华，同时确定 blog以记录学习的思考为主，有趣的项目可以直接在github中开源分享 &#10;" />
     <MESSAGE value="添加springbatch的study notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加springbatch的study notes" />
+    <MESSAGE value="想修改就修改喽" />
+    <option name="LAST_COMMIT_MESSAGE" value="想修改就修改喽" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1008,13 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1208,10 +1215,18 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="161">
-            <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
