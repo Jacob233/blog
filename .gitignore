@@ -1,1 +1,5 @@
+#.idea文件不上传到remote_repository
 .idea
+#vim.exe.stackdump
+vim.exe.stackdump
+
