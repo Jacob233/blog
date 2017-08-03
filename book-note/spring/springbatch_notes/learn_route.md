@@ -1,5 +1,5 @@
-#springbatch
-##学习springbatch所涉及的参考资料汇总：
+# springbatch
+## 学习springbatch所涉及的参考资料汇总：
 1. 简述
 http://blog.csdn.net/kkdelta/article/details/45438491
 2. springbatch的系列总括：
@@ -17,5 +17,5 @@ http://www.cnblogs.com/cdutedu/p/3793484.html
 8. Chunk拦截器
 http://blog.csdn.net/u011659172/article/details/50770470
 
-##springbatch的坑：
+## springbatch的坑：
 
