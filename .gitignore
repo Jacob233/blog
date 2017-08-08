@@ -2,4 +2,6 @@
 .idea
 #vim.exe.stackdump
 vim.exe.stackdump
+#out
+out
 
