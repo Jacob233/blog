@@ -1,11 +1,11 @@
-/**
+package base; /**
  * msxf.com Inc.
  * Copyright (c) 2017-2026 All Rights Reserved.
  */
 
 /**
  * @author ji.xie
- * @Filename AbstractTransParams.java
+ * @Filename base.AbstractTransParams.java
  * @description 测试一个函数a中的局部函数x作为变量，传入另一个函数b中,并在其中修改x,再在a中输出x,观察结果并分析
  * 分析结果： 基本类型按值传递，对象按引用传递，String是特殊对象，每次赋值相当于重新创建对象，故类似于基本类型
  * @Version 1.0
