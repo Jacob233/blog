@@ -22,7 +22,6 @@ public class CountDownLatchDemo {
     CountDownLatch end = new CountDownLatch(10);//比赛结束
     ExecutorService executorService = Executors.newFixedThreadPool(10);
 
-    @org.junit.Test
     public void test() {
         for (int i = 0; i < 10; i++) {
 
@@ -52,5 +51,9 @@ public class CountDownLatchDemo {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        new CountDownLatchDemo().test();
     }
 }

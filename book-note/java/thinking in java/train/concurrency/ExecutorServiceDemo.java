@@ -27,6 +27,10 @@ import java.util.concurrent.*;
  */
 public class ExecutorServiceDemo {
 
+    public static void main(String[] args) {
+        new ExecutorServiceDemo().test();
+    }
+
     @Test
     public void test() {
 
