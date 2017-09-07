@@ -24,11 +24,11 @@
 
 `参考文章：`
 
-[3的解决参考]:https://segmentfault.com/q/1010000008998030
-[异常解决参考]:https://www.ibm.com/developerworks/cn/java/j-lo-exception-misdirection/
-[4的解决参考a]:http://ask.csdn.net/questions/178819
-[4的解决参考b]:http://www.cnblogs.com/wuxiaofeng/p/6819209.html
-[TransactionRequiredException]:https://samebug.io/exceptions/99155/javax.persistence.TransactionRequiredException/executing-an-updatedelete-query?soft=false
+[3的解决参考](https://segmentfault.com/q/1010000008998030)  
+[异常解决参考](https://www.ibm.com/developerworks/cn/java/j-lo-exception-misdirection/)  
+[4的解决参考a](http://ask.csdn.net/questions/178819)  
+[4的解决参考b](http://www.cnblogs.com/wuxiaofeng/p/6819209.html)  
+[TransactionRequiredException](https://samebug.io/exceptions/99155/javax.persistence.TransactionRequiredException/executing-an-updatedelete-query?soft=false)  
 
 
 
