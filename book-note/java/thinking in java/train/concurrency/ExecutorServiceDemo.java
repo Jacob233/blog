@@ -31,7 +31,6 @@ public class ExecutorServiceDemo {
         new ExecutorServiceDemo().test();
     }
 
-    @Test
     public void test() {
 
         //0.创建ExecutorService（4个实现：静态工厂的设计模式）
@@ -46,7 +45,7 @@ public class ExecutorServiceDemo {
         ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(3);
 
         //1.0 执行线程之run
-//        run(fixedThreadPool);
+        run(fixedThreadPool);
 //        run(cachedThreadPool);
 //        run(newSingleThreadExecutor);
 //        run(scheduledExecutorService);
@@ -54,31 +53,36 @@ public class ExecutorServiceDemo {
 //        call(fixedThreadPool);
 //        call(cachedThreadPool);
 //        call(newSingleThreadExecutor);
-        call(scheduledExecutorService);
+//        call(scheduledExecutorService);
     }
 
     /*将要执行的任务*/
     private void run(ExecutorService executorService) {
-        for (int i = 0; i < 3; i++) {
-            final int num = i;
+        for (int i = 1; i < 4; i++) {
+            final int task = i;
             // 创建线程
-            Runnable runnable = new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println("当前线程:" + Thread.currentThread().getName() + "正在执行" + num);
-                }
-            };
-            //执行线程
-            executorService.execute(runnable);
-            //每个任务执行3次
-//            executorService.execute(new Runnable() {
+//            Runnable runnable = new Runnable() {
 //                @Override
 //                public void run() {
-//                    for (int j = 0; j < 3; j++) {
-//                        System.out.println("当前线程:" + Thread.currentThread().getName() + "正在执行" + j);
-//                    }
+//                    System.out.println("当前线程:" + Thread.currentThread().getName() + "正在执行" + task);
 //                }
-//            });
+//            };
+//            //执行线程
+//            executorService.execute(runnable);
+            //每个任务执行3次
+            executorService.execute(new Runnable() {
+                @Override
+                public void run() {
+                    for (int j = 1; j < 4; j++) {
+                        try {
+                            Thread.sleep(200);
+                            System.out.println("当前线程:" + Thread.currentThread().getName() + "正在执行,第" + task + "次任务的" + j + "次执行");
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            });
         }
         //关闭线程池
         executorService.shutdown();

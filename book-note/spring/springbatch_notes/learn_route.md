@@ -22,6 +22,6 @@ https://kimmking.gitbooks.io/springbatchreference/02_spring_batch_30/index.html
 http://blog.csdn.net/karott/article/details/44154501
 
 ## springbatch的坑：
-这个应该不算坑，算是经验233：还是看官方的文档来学新东西，以官方例子为切入点，列如springbatch官方给的几个sample就将特点全
+这个应该不算坑，算是经验：还是看官方的文档来学新东西，以官方例子为切入点，列如springbatch官方给的几个sample就将特点全
 覆盖了，然后看看API，再实操一下就好了，真心感觉中文文档太少了，而且很多还有点坑……
 
