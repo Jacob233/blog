@@ -1,7 +1,3 @@
-/**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
 package base;
 
 import java.util.ArrayList;
@@ -28,8 +24,7 @@ public class ConditionDebugTest {
         names.add("小d");
         names.add("小e");
 
-        for (String name :
-                names) {
+        for (String name : names) {
             System.out.println("test的name:" + name);
         }
     }

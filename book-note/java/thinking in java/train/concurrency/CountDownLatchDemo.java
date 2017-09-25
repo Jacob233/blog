@@ -1,7 +1,4 @@
-package concurrency; /**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
+package concurrency;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

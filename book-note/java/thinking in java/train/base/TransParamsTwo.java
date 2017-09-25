@@ -1,7 +1,4 @@
-package base; /**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
+package base;
 
 /**
  * @author ji.xie

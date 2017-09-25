@@ -2,11 +2,10 @@
  * msxf.com Inc.
  * Copyright (c) 2017-2026 All Rights Reserved.
  */
-package base.interfaceTest.test;
+package base.interface_test.test;
 
-import base.interfaceTest.ChildInterface;
-import base.interfaceTest.ParentInterface;
-import base.interfaceTest.impl.TestInterface;
+import base.interface_test.ParentInterface;
+import base.interface_test.impl.TestInterface;
 
 /**
  * @author ji.xie

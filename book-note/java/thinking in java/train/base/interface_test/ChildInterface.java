@@ -1,8 +1,4 @@
-/**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
-package base.interfaceTest;
+package base.interface_test;
 
 /**
  * @author ji.xie

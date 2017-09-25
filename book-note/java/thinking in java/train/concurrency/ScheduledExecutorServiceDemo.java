@@ -1,7 +1,3 @@
-/**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
 package concurrency;
 
 import org.junit.Test;

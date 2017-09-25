@@ -1,7 +1,3 @@
-/**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
 package concurrency;
 
 /**
@@ -28,13 +24,26 @@ public class BaseThreadDemo {
         MyThread myThread = new MyThread();//定义同级线程
         Thread t1 = new Thread(myThread, "t1");
         Thread t2 = new Thread(myThread, "t2");
-        long start=System.currentTimeMillis();
+        long start = System.currentTimeMillis();
         try {
             System.out.println("当前执行线程：" + Thread.currentThread().getName());
+
+            //第一种形式：t1、t2并行
+//            t1.start();
+//            t2.start();//启动
+//            t1.join();//加入到当前线程
+//            t2.join();
+
+            //第二种形式：t1、t2顺行
+//            t1.start();
+//            t1.join();//加入到当前线程
+//            t2.start();//启动
+//            t2.join();
+
+            //第三种种形式：t1、当前线程并行
             t1.start();
-//        t2.start();//启动
-            t1.join();//加入到当前线程
-            System.out.println("间隔时间："+(System.currentTimeMillis()-start)+"ms");
+
+            System.out.println("间隔时间：" + (System.currentTimeMillis() - start) + "ms");
             System.out.println("当前线程执行结束");
         } catch (Exception e) {
             e.printStackTrace();
@@ -46,15 +55,9 @@ public class BaseThreadDemo {
         public void run() {
             for (int i = 0; i < 3; i++) {
                 try {
-
-                    //如果是t1，则让他：同级相让
-                    if (Thread.currentThread().getName().equals("t1")) {
-                        Thread.yield();
-                    }
-
-                    Thread.sleep(1000);//模拟线程执行时间两秒
+                    Thread.sleep(1000);//模拟每次循环执行的时间1秒
                     System.out.println(Thread.currentThread().getName() + "running" + i);
-                } catch (InterruptedException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }

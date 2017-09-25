@@ -1,10 +1,5 @@
 package concurrency;
-/**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;

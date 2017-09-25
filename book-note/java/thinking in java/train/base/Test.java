@@ -1,7 +1,5 @@
-package base; /**
- * msxf.com Inc.
- * Copyright (c) 2017-2026 All Rights Reserved.
- */
+package base;
+
 
 /**
  * @author ji.xie
@@ -17,7 +15,7 @@ public class Test {
     @org.junit.Test
     public void test() {
         //实现one
-        new TransParamsOne().originParams();
+//        new TransParamsOne().originParams();
         //实现two
         new TransParamsTwo().originParams();
     }
