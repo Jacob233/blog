@@ -1,33 +1,36 @@
-package base.collection.hashmap;
+package base.collection.map.hashmap;
 
-import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
  * @author ji.xie
- * @Filename HashSetDemo.java
- * @description 结论：无序是指，逻辑无序，实际：是内部通过hashcode有序存储
+ * @Filename HashMapDemo.java
+ * @description 测试顺序
  * @Version 1.0
  * @History <li>Author: ji.xie</li>
- * <li>Date: 2017/9/25 14:11</li>
+ * <li>Date: 2017/9/25 11:30</li>
  * <li>Version: 1.0</li>
  * <li>Content: create</li>
  */
-public class HashSetDemo {
+public class HashMapDemo {
+
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newFixedThreadPool(1);
 
-        Set<String> set = new HashSet<>();
+        Map<String, String> map = new HashMap<String, String>();
 
         for (int i = 0; i < 1000; i++) {
-            set.add(i + "test");
+            map.put(i + "test", i + "test");
         }
 
         executorService.submit(new Runnable() {
             @Override
             public void run() {
+                Set set = map.keySet();
                 for (Object i : set) {
                     System.out.println(i);
                 }

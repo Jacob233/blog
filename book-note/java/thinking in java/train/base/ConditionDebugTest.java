@@ -1,5 +1,6 @@
 package base;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,5 +28,12 @@ public class ConditionDebugTest {
         for (String name : names) {
             System.out.println("test的name:" + name);
         }
+
+        //buffer实际""
+        StringBuffer buffer=new StringBuffer();
+        if(buffer.toString()==null||buffer.toString().length()==0){
+            System.out.println("true");
+        }
+        System.out.println(buffer);
     }
 }
