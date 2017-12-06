@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "this is a blog how to learn",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./book-note/front-end/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieji233/blog.git"
+  },
+  "author": "ji.xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieji233/blog/issues"
+  },
+  "homepage": "https://github.com/xieji233/blog#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "express": "^4.16.2"
+  }
+}
