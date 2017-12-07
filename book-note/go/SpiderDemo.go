@@ -58,7 +58,7 @@ func (t *ThreadItem) download() {
     //E:\\pay\\
 	dir := "E:\\pay\\download\\" + string(t.url[last+1:len(t.url)])
 	fmt.Println("create dir:", dir)
-	err := os.Mkdir(dir, os.ModePerm)
+	err := os.MkdirAll(dir, os.ModePerm)
 	if err != nil {
 		fmt.Println(err)
 		fmt.Println("Create Directory ERROR!")
