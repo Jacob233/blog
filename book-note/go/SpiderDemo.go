@@ -18,9 +18,9 @@ import (
 
 var (
 	//图片正则表达式
-	imageItemExp = regexp.MustCompile(`src="//i\.4cdn\.org/s/[0123456789]+s\.jpg"`)
+	imageItemExp = regexp.MustCompile(`src="//i\.4cdn\.org/s/\d+s\.jpg"`)
 	//帖子路径正则表达式
-	threadItemExp = regexp.MustCompile(`"thread/[0123456789]+"`)
+	threadItemExp = regexp.MustCompile(`"thread/\d+"`)
 )
 
 //ThreadItem 帖子数据
