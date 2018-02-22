@@ -1,8 +1,6 @@
 package base.concurrency;
 
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * @author ji.xie
@@ -15,39 +13,39 @@ import java.util.concurrent.Executors;
  * <li>Content: create</li>
  */
 public class CountDownLatchDemo {
-    CountDownLatch start = new CountDownLatch(1);//定义当前线程等待线程数：比赛开始
-    CountDownLatch end = new CountDownLatch(10);//比赛结束
+    /**定义当前线程等待线程数:比赛开始*/
+    CountDownLatch start = new CountDownLatch(1);
+    /**比赛结束*/
+    CountDownLatch end = new CountDownLatch(10);
     ExecutorService executorService = Executors.newFixedThreadPool(10);
 
     public void test() {
         for (int i = 0; i < 10; i++) {
-
-            final int no = i + 1;//名次 ;
-            Runnable runnable = new Runnable() {
-                @Override
-                public void run() {
+            //名次
+            int no = i + 1;
+            Runnable runnable = ()-> {
                     try {
+                        System.out.println("come?"+no);
                         start.await();
-                        System.out.println("NO." + no + "到达终点");
+                        System.out.println("threadName:"+Thread.currentThread().getName()+" NO." + no + "到达终点");
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     } finally {
                         end.countDown();
                     }
-                }
             };
             executorService.execute(runnable);
         }
 
-        start.countDown();
         System.out.println("---------比赛开始---------");
-        try {
-            end.await();
-            System.out.println("---------比赛结束---------");
-            executorService.shutdown();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+            start.countDown();
+            try {
+                end.await();
+                System.out.println("---------比赛结束---------");
+                executorService.shutdown();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
     }
 
     public static void main(String[] args) {
