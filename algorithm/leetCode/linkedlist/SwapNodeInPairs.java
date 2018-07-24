@@ -47,7 +47,7 @@ public class SwapNodeInPairs {
     public void test() throws CloneNotSupportedException {
         ListNode orign = new ListNode("1", new ListNode("2", new ListNode("3", new ListNode("4", new ListNode()))));
         ListNode head = swapPairs(orign);
-        System.out.println(head.getValue() + "->" + head.getNext().getValue() + "->" + head.getNext().getNext().getValue() + "->" +
-                head.getNext().getNext().getNext().getValue());
+        System.out.println(head.getStrVal() + "->" + head.getNext().getStrVal() + "->" + head.getNext().getNext().getStrVal() + "->" +
+                head.getNext().getNext().getNext().getStrVal());
     }
 }

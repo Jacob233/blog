@@ -32,11 +32,11 @@ public class MergeTwoLists {
 
     @Test
     public void test() {
-        ListNode l1 = new ListNode("1", new ListNode("2", new ListNode("3", null)));
-        ListNode l2 = new ListNode("4", new ListNode("5", new ListNode("6", null)));
+        ListNode l1 = new ListNode("1", new ListNode("2", new ListNode("3")));
+        ListNode l2 = new ListNode("4", new ListNode("5", new ListNode("6")));
         ListNode l3 = merge(l1, l2);
 //        merge(l1, l2);
-        System.out.println(l3.getNext().getNext().getNext().getNext().getValue());
+        System.out.println(l3.getNext().getNext().getNext().getNext().getStrVal());
     }
 
 }

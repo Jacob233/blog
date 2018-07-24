@@ -1,8 +1,7 @@
 package base.collection.list;
 
 
-import java.util.ArrayList;
-import java.util.List;
+import org.junit.Test;
 
 /**
  * @author ji.xie
@@ -16,5 +15,9 @@ import java.util.List;
  */
 public class ArrayListDemo {
 
-    List list=new ArrayList();
+    @Test
+    public void test(){
+        System.out.println("test this demo");
+        System.out.println("");
+    }
 }
