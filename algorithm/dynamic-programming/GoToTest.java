@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+
 /**
  * @author ji.xie
  * @Filename GoToTest.java
@@ -18,8 +19,8 @@ public class GoToTest {
     }
 
     public int add(int i) {
-        if(0!=i){
-            i+=add(i - 1);
+        if (0 != i) {
+            i += add(i - 1);
         }
         return i;
     }
