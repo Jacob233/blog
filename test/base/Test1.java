@@ -1,10 +1,8 @@
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
+import util.templet.People;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 import java.util.logging.Logger;
 
 /**
@@ -83,5 +81,11 @@ public class Test1 {
     public void uuidTest() {
         String uuid = UUID.randomUUID().toString().replace("-", "");
         logger.info(String.valueOf(uuid.length()));
+    }
+
+    @Test
+    public void dateTest() {
+        System.out.println(new People("a", 1));
+        System.out.println(new Date(532583980994L));
     }
 }
